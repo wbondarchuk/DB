@@ -185,7 +185,6 @@ operations = [View_doctors, Add_Patient, Delete_Patient, Give_Drugs]
 def main():
     ACK = 1
     while ACK != 0:
-
         i = Greeting()
         if i == -2:
             print('Повторите попытку')
