@@ -25,7 +25,6 @@ def Greeting():
     if num < 0 or num > 3:
         print('Что-то не так, введите число от 0 до 3!')
         return -2
-    print('Вы ввели:' + str(num))
     return num
 
 
